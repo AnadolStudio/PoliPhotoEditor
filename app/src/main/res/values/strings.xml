@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name" translatable="false">PhotoEditor</string>
+
+    <!--    MainActivity-->
+    <string name="main_func_photo">Photo</string>
+    <string name="main_func_collage">Collage</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">Gallery</string>
+    <string name="gallery_title_one_choice">Choose photo</string>
+    <string name="gallery_title_many_choices">Choose photos</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d selected</string>
+    <string name="gallery_snack_bar_settings">Settings</string>
+    <string name="gallery_error_nothing_found">There is nothing here</string>
+    <string name="gallery_error_miss_permission">Please, give permission</string>
+    <!--    EditActivity-->
+    <string name="edit_main_title" translatable="false" >Magiс starts here</string>
+    <string name="edit_collages_title" translatable="false" >Perfect collages for you</string>
+    <string name="edit_frames_title" translatable="false" >Perfect frames for you</string>
+    <string name="edit_filters_title" translatable="false" >Perfect filters for you</string>
+    <string name="edit_effects_title" translatable="false" >Perfect overlay for you</string>
+    <string name="edit_brush_title" translatable="false" >Time to draw something</string>
+    <string name="edit_crop_title" translatable="false" >Little changes</string>
+    <string name="edit_background_title" translatable="false" >Perfect backgrounds for you</string>
+    <string name="edit_body_title" translatable="false" >Perfect shape for you</string>
+    <string name="edit_form_title" translatable="false" >Perfect forms for you</string>
+    <string name="edit_improve_title" translatable="false" >Your Improvements</string>
+    <string name="edit_sticker_title" translatable="false" >Perfect stickers for you</string>
+    <string name="edit_text_title" translatable="false" >Add some text here</string>
+    <string name="edit_text_title_text_color" translatable="false" >Add some colors on your text</string>
+    <string name="edit_text_title_back_color" translatable="false" >Add some background</string>
+    <string name="edit_text_title_font" translatable="false" >Change font of your text</string>
+    <string name="share_title" translatable="false">What a masterpiece!</string>
+
+    <string name="common_cancel_dialog_positive_button_title">Cancel changes</string>
+    <string name="common_cancel_dialog_negative_button_title">Keep changes</string>
+    <string name="common_apply_dialog_positive_button_title">Apply changes</string>
+    <string name="common_apply_dialog_negative_button_title">Keep changes</string>
+
+    <string name="edit_func_collages">Collages</string>
+    <string name="edit_func_frames">Frames</string>
+    <string name="edit_func_filters">Filters</string>
+    <string name="edit_func_text">Text</string>
+    <string name="edit_func_stickers">Stickers</string>
+    <string name="edit_func_improve">Improve</string>
+    <string name="edit_func_brush">Brush</string>
+    <string name="edit_func_crop">Crop</string>
+    <string name="edit_func_blur">Blur</string>
+    <string name="edit_func_background">Background</string>
+    <string name="edit_func_effects">Effects</string>
+    <string name="edit_func_form">Form</string>
+    <string name="edit_func_body">Body</string>
+
+    <string name="edit_error_cant_open_file">Can\'t open file</string>
+    <string name="edit_error_nothing_selected">Nothing is selected</string>
+
+    <string name="edit_action_apply">Apply</string>
+    <string name="edit_action_save">Save</string>
+
+    <string name="error_collage_is_not_ready">The collage is not ready</string>
+
+    <string name="collage_func_delete">Delete</string>
+    <string name="crop_func_sizes">Sizes</string>
+    <string name="crop_func_reflect">Reflect</string>
+    <string name="crop_func_rotate_left">Left</string>
+    <string name="crop_func_rotate_right">Right</string>
+    <string name="crop_func_original">Original</string>
+    <string name="crop_func_ratio_free">Free</string>
+    <string name="crop_error_saving_image">An error occurred while cropping</string>
+
+    <string name="text_func_keyboard">Keyboard</string>
+    <string name="text_func_font">Font</string>
+    <string name="text_func_palette">Palette</string>
+    <string name="text_func_back">Back</string>
+    <string name="text_empty_text_container_toast">Select the text</string>
+
+    <string name="improve_func_brightness">Brightness</string>
+    <string name="improve_func_contrast">Contrast</string>
+    <string name="improve_func_curves">Curves</string>
+    <string name="improve_func_saturation">Saturation</string>
+    <string name="improve_func_vignette">Vignette</string>
+    <string name="improve_func_warmth">Warmth</string>
+    <string name="improve_func_selcolor" translatable="false">Color</string>
+
+    <string name="cut_func_delete">Reset</string>
+    <string name="cut_func_colour">Colour</string>
+    <string name="cut_func_own_background">Own</string>
+    <string name="cut_error_object_isnt_exist">Failed to recognize person</string>
+    <string name="cut_error_isnt_exist">Choose a background</string>
+    <string name="cut_bottom_dialog_select">Person not found: select manually</string>
+    <string name="cut_bottom_dialog_back">Person not found: go back</string>
+    <string name="cut_bottom_dialog_refresh_apply">Cancel your changes</string>
+    <string name="cut_bottom_dialog_refresh_cancel">Keep changing</string>
+
+    <string name="body_func_breast">Breast</string>
+    <string name="body_func_waist">Waist</string>
+    <string name="body_func_hips">Hips</string>
+
+    <string name="dialog_loading">Loading</string>
+    <string name="dialog_apply_message">Apply changes?\nThis action can\'t be undone!</string>
+    <string name="dialog_cancel_message">Changes will not be saved</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">Share</string>
+    <string name="save_func_instagram">Instagram</string>
+    <string name="save_func_facebook">Facebook</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">Twitter</string>
+    <string name="save_func_remove_watermark">Remove watermark</string>
+    <string name="save_label_saved">Saved</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+    <string name="error_failed_save_image" translatable="false">Failed to save Image</string>
+
+</resources>

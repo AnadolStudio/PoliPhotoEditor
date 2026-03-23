@@ -1,0 +1,94 @@
+<resources>
+    <!--    MainActivity-->
+    <string name="main_func_photo">フォト</string>
+    <string name="main_func_collage">コラージュ</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">ギャラリーから選択</string>
+    <string name="gallery_snack_bar_settings">設定</string>
+    <string name="gallery_title_one_choice">写真を選んでください</string>
+    <string name="gallery_title_many_choices">写真を選ぶ</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d が選択されました</string>
+    <string name="gallery_error_nothing_found">ここには何もありません</string>
+    <string name="gallery_error_miss_permission">アクセス許可に失敗しました</string>
+    <!--    EditActivity-->
+    <string name="common_cancel_dialog_positive_button_title">変更をキャンセルする</string>
+    <string name="common_cancel_dialog_negative_button_title">変化し続ける</string>
+    <string name="common_apply_dialog_positive_button_title">変更を適用する</string>
+    <string name="common_apply_dialog_negative_button_title">変化し続ける</string>
+    <string name="edit_func_collages">コラージュ</string>
+    <string name="edit_func_frames">フレーム</string>
+    <string name="edit_func_filters">フィルタ</string>
+    <string name="edit_func_text">テキスト</string>
+    <string name="edit_func_stickers">ステッカーに保存します。</string>
+    <string name="edit_func_improve">更新</string>
+    <string name="edit_func_brush">新しいブラシ</string>
+    <string name="edit_func_crop">作物</string>
+    <string name="edit_func_blur">ぼかし</string>
+    <string name="edit_func_background">切る</string>
+    <string name="edit_func_effects">エフェクト</string>
+    <string name="edit_func_form">図形</string>
+    <string name="edit_func_body">身体</string>
+
+    <string name="edit_error_cant_open_file">ファイルを開くことができません</string>
+    <string name="edit_error_nothing_selected">何も選択されていません</string>
+
+    <string name="edit_action_apply">申し込み</string>
+    <string name="edit_action_save">保存して作品を共有するための保存ボタンを押してください。</string>
+
+    <string name="error_collage_is_not_ready">コラージュの準備ができていません</string>
+    <string name="collage_func_delete">消去</string>
+
+    <string name="crop_func_sizes">サイズ</string>
+    <string name="crop_func_reflect">反射</string>
+    <string name="crop_func_rotate_left">左折してください</string>
+    <string name="crop_func_rotate_right">右に曲がる</string>
+
+    <string name="crop_func_original">オリジナル</string>
+    <string name="crop_func_ratio_free">自由な</string>
+    <string name="crop_error_saving_image">保存に失敗しました！</string>
+
+    <string name="text_func_keyboard">キーボード</string>
+    <string name="text_func_font">フォント</string>
+    <string name="text_func_palette">パレット</string>
+    <string name="text_func_back">戻る</string>
+    <string name="text_empty_text_container_toast">テキストを選択します</string>
+
+    <string name="improve_func_brightness">明度</string>
+    <string name="improve_func_contrast">コントラスト</string>
+    <string name="improve_func_saturation">飽和</string>
+    <string name="improve_func_vignette">ビネット</string>
+    <string name="improve_func_warmth">温もり</string>
+    <string name="improve_func_curves">カーブ</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">削除</string>
+    <string name="cut_func_colour">色</string>
+    <string name="cut_func_own_background">背景</string>
+    <string name="cut_error_object_isnt_exist">顔の検出に失敗しました。</string>
+    <string name="cut_error_isnt_exist">背景を選択してください</string>
+    <string name="cut_bottom_dialog_select">人物が見つかりません: 手動で選択してください</string>
+    <string name="cut_bottom_dialog_back">見つからない人: 戻る</string>
+    <string name="cut_bottom_dialog_refresh_apply">変更をキャンセルする</string>
+    <string name="cut_bottom_dialog_refresh_cancel">変化し続ける</string>
+
+    <string name="body_func_breast">胸</string>
+    <string name="body_func_waist">ウエスト</string>
+    <string name="body_func_hips">おしり</string>
+
+    <string name="dialog_loading">ローディング…</string>
+    <string name="dialog_apply_message">変更を適用しますか？\ nこのアクションは元に戻せません！</string>
+    <string name="dialog_cancel_message">変更は保存されません</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">共有</string>
+    <string name="save_func_instagram">インスタグラム</string>
+    <string name="save_func_facebook">フェイスブック</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">ツイッター</string>
+    <string name="save_func_remove_watermark">広告なし＆ウォーターマークなし。</string>
+    <string name="save_label_saved">に保存</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

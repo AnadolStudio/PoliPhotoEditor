@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#999999</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorAccent2">#0CA198</color>
+    <color name="colorAccentDark">#000000</color>
+    <color name="colorAccentDarkAlpha">#8000817A</color>
+    <color name="colorOnboardingBackground">#E9E9E9</color>
+    <color name="colorEditTextPanel">#80000000</color>
+    <color name="colorOnboardingText">#333333</color>
+
+    <color name="colorTitleText">#FFFFFF</color>
+    <color name="colorGradientStart">#FF314D</color>
+    <color name="colorGradientEnd">#FF7F27</color>
+    <color name="colorLinearBackground">#99000000</color>
+    <color name="colorTextBackground">#66000000</color>
+    <color name="colorMainButtonRipple">#919191</color>
+    <!--    <color name="colorOnboardingBackground">#A8A8A8</color>-->
+
+    <color name="colorOpenActivity">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAlphaWhite">#BFFFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorTextRipple">#00817A</color>
+
+    <color name="colorPickerDefault">#FFFFFF</color>
+    <color name="panelBackground">#EFEFEF</color>
+    <color name="editPanelBackground">#F6F6F6</color>
+    <color name="imageBackground">#F7F7F7</color>
+    <color name="colorHint">#80FFFFFF</color>
+    <color name="collageOverlayColor">#88000000</color>
+
+    <color name="shadow">#0D000000</color>
+    <color name="filterItemSelectedColor">#D9000000</color>
+
+    <color name="redCurveColor">#FF0000</color>
+    <color name="greenCurveColor">#00FF47</color>
+    <color name="blueCurveColor">#5300FF</color>
+
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF8800</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_dark">#DDDD00</color>
+    <color name="green">#00FF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#8800FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <color name="slides_color_default">#808080</color>
+    <color name="slides_color_select">#000000</color>
+    <color name="primary_label_color_1">#756250</color>
+    <color name="primary_label_color_2">#525252</color>
+    <color name="body_icon_dark_primary">#000000</color>
+    <color name="body_icon_dark_accent">#ffffff</color>
+
+    <color name="background_func_back_color">#80000000</color>
+
+</resources>

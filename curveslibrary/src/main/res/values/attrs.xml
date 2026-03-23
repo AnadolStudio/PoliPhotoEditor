@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurvesView">
+        <attr name="borderStrokeWidth" format="dimension"/>
+        <attr name="curveStrokeWidth" format="dimension"/>
+        <attr name="pointStrokeWidth" format="dimension"/>
+        <attr name="pointSide" format="dimension"/>
+        <attr name="borderStrokeColor" format="reference|color"/>
+        <attr name="borderFillColor" format="reference|color"/>
+    </declare-styleable>
+</resources>

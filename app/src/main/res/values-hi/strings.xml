@@ -1,0 +1,99 @@
+<resources>
+
+    <!--    MainActivity-->
+    <string name="main_func_photo">तस्वीर</string>
+    <string name="main_func_collage">कोलाज</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">गेलरी</string>
+    <string name="gallery_title_one_choice">तस्विर का चयन करो</string>
+    <string name="gallery_title_many_choices">फ़ोटो चुनें</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d चयनित</string>
+    <string name="gallery_snack_bar_settings">समायोजन</string>
+    <string name="gallery_error_nothing_found">यहां कुछ नहीं है</string>
+    <string name="gallery_error_miss_permission">कृपया, अनुमति दें</string>
+
+    <!--    EditActivity-->
+
+    <string name="common_cancel_dialog_positive_button_title">परिवर्तन रद्द करें</string>
+    <string name="common_cancel_dialog_negative_button_title">बदलते रहें</string>
+    <string name="common_apply_dialog_positive_button_title">परिवर्तनों को लागू करें</string>
+    <string name="common_apply_dialog_negative_button_title">बदलते रहें</string>
+
+    <string name="edit_func_collages">कोलाज</string>
+    <string name="edit_func_frames">फ्रेम्स</string>
+    <string name="edit_func_filters">फिल्टर</string>
+    <string name="edit_func_text">मूलपाठ</string>
+    <string name="edit_func_stickers">स्टिकर</string>
+    <string name="edit_func_improve">अपग्रेड</string>
+    <string name="edit_func_brush">ब्रश</string>
+    <string name="edit_func_crop">काटना</string>
+    <string name="edit_func_blur">कलंक</string>
+    <string name="edit_func_background">कट गया</string>
+    <string name="edit_func_effects">प्रभाव</string>
+    <string name="edit_func_form">छप छप</string>
+    <string name="edit_func_body">शरीर</string>
+
+    <string name="edit_error_cant_open_file">फ़ाइल नहीं खोल सकता</string>
+    <string name="edit_error_nothing_selected">कुछ भी नहीं चुना गया है</string>
+
+    <string name="edit_action_apply">लागू करना</string>
+    <string name="edit_action_save">सहेजें</string>
+
+    <string name="error_collage_is_not_ready">कोलाज तैयार नहीं है</string>
+    <string name="collage_func_delete">मिटाना</string>
+
+    <string name="crop_func_sizes">आकार</string>
+    <string name="crop_func_reflect">प्रतिबिंबित होना</string>
+    <string name="crop_func_rotate_left">बाएं मुड़ें</string>
+    <string name="crop_func_rotate_right">दाएं मुड़ें</string>
+
+    <string name="crop_func_original">Original</string>
+    <string name="crop_func_ratio_free">मनमाना</string>
+    <string name="crop_error_saving_image">काटते समय एक त्रुटि हुई</string>
+
+    <string name="text_func_keyboard">कीबोर्ड</string>
+    <string name="text_func_font">फ़ॉन्ट</string>
+    <string name="text_func_palette">पैलेट</string>
+    <string name="text_func_back">पीछे</string>
+    <string name="text_empty_text_container_toast">पाठ का चयन करें</string>
+
+    <string name="improve_func_brightness">चमक</string>
+    <string name="improve_func_contrast">अंतर</string>
+    <string name="improve_func_saturation">परिपूर्णता</string>
+    <string name="improve_func_vignette">विनेट</string>
+    <string name="improve_func_warmth">गरमाहट</string>
+    <string name="improve_func_curves">घटता</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">रीसेट</string>
+    <string name="cut_func_colour">रंग</string>
+    <string name="cut_func_own_background">अपना</string>
+    <string name="cut_error_object_isnt_exist">व्यक्ति को पहचानने में विफल</string>
+    <string name="cut_error_isnt_exist">एक पृष्ठभूमि चुनें</string>
+    <string name="cut_bottom_dialog_select">व्यक्ति नहीं मिला: मैन्युअल रूप से चयन करें</string>
+    <string name="cut_bottom_dialog_back">व्यक्ति नहीं मिला: वापस जाओ</string>
+    <string name="cut_bottom_dialog_refresh_apply">अपने परिवर्तन रद्द करें</string>
+    <string name="cut_bottom_dialog_refresh_cancel">बदलते रहें</string>
+
+    <string name="body_func_breast">स्तन</string>
+    <string name="body_func_waist">कमर</string>
+    <string name="body_func_hips">नितंब</string>
+
+    <string name="dialog_loading">लोड हो रहा है</string>
+    <string name="dialog_apply_message">परिवर्तन लागू करें?\nइस क्रिया को पूर्ववत नहीं किया जा सकता!</string>
+    <string name="dialog_cancel_message">परिवर्तन सहेजे नहीं जाएंगे</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">साझा करना</string>
+    <string name="save_func_instagram">Instagram</string>
+    <string name="save_func_facebook">Facebook</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">Twitter</string>
+    <string name="save_func_remove_watermark">पानी के निशान हटाएं</string>
+    <string name="save_label_saved">बचाया</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

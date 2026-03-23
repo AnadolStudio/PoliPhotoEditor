@@ -1,0 +1,96 @@
+<resources>
+    <!--    MainActivity-->
+    <string name="main_func_photo">Photo</string>
+    <string name="main_func_collage">Collage</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">Galerie</string>
+    <string name="gallery_title_one_choice">Choisissez une photo</string>
+    <string name="gallery_title_many_choices">Choisissez des photos</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d sélectionné</string>
+    <string name="gallery_snack_bar_settings">Paramètres</string>
+    <string name="gallery_error_nothing_found">Il n\'y a rien ici</string>
+    <string name="gallery_error_miss_permission">S\'il vous plaît, donnez la permission</string>
+    <!--    EditActivity-->
+
+    <string name="common_cancel_dialog_positive_button_title">Annuler les modifications</string>
+    <string name="common_cancel_dialog_negative_button_title">changer continuellement</string>
+    <string name="common_apply_dialog_positive_button_title">appliquer les modifications</string>
+    <string name="common_apply_dialog_negative_button_title">changer continuellement</string>
+
+    <string name="edit_func_collages">Collages</string>
+    <string name="edit_func_frames">Cadres</string>
+    <string name="edit_func_filters">Filtres</string>
+    <string name="edit_func_text">Texte</string>
+    <string name="edit_func_stickers">Autocollants</string>
+    <string name="edit_func_improve">Améliorer</string>
+    <string name="edit_func_brush">Brosser</string>
+    <string name="edit_func_crop">Recadrer</string>
+    <string name="edit_func_blur">Se brouiller</string>
+    <string name="edit_func_background">Fond</string>
+    <string name="edit_func_effects">Effets</string>
+    <string name="edit_func_form">Éclaboussure</string>
+    <string name="edit_func_body">Corps</string>
+
+    <string name="edit_error_cant_open_file">Impossible d\'ouvrir le fichier</string>
+    <string name="edit_error_nothing_selected">Rien n\'est sélectionné</string>
+
+    <string name="edit_action_apply">Appliquer</string>
+    <string name="edit_action_save">sauvegarder</string>
+
+    <string name="error_collage_is_not_ready">Le collage n\'est pas prêt</string>
+
+    <string name="collage_func_delete">Supprimer</string>
+    <string name="crop_func_sizes">Tailles</string>
+    <string name="crop_func_reflect">Refléter</string>
+    <string name="crop_func_rotate_left">Tournez à gauche</string>
+    <string name="crop_func_rotate_right">Tournez à droite</string>
+
+    <string name="crop_func_original">Original</string>
+    <string name="crop_func_ratio_free">Arbitraire</string>
+    <string name="crop_error_saving_image">Une erreur s\'est produite lors du recadrage</string>
+
+    <string name="text_func_keyboard">Clavier</string>
+    <string name="text_func_font">Police de caractère</string>
+    <string name="text_func_palette">Palette</string>
+    <string name="text_func_back">Dos</string>
+    <string name="text_empty_text_container_toast">sélectionner le texte</string>
+
+    <string name="improve_func_brightness">Luminosité</string>
+    <string name="improve_func_contrast">Contraste</string>
+    <string name="improve_func_saturation">Saturation</string>
+    <string name="improve_func_vignette">Vignette</string>
+    <string name="improve_func_warmth">Chaleur</string>
+    <string name="improve_func_curves">Courbes</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">Réinitialiser</string>
+    <string name="cut_func_colour">Couleur</string>
+    <string name="cut_func_own_background">Propre</string>
+    <string name="cut_error_object_isnt_exist">Impossible de reconnaître la personne</string>
+    <string name="cut_error_isnt_exist">Choisissez un arrière-plan</string>
+    <string name="cut_bottom_dialog_select">Personne introuvable : sélectionnez manuellement</string>
+    <string name="cut_bottom_dialog_back">Personne introuvable : retour</string>
+    <string name="cut_bottom_dialog_refresh_apply">annuler vos modifications</string>
+    <string name="cut_bottom_dialog_refresh_cancel">changer continuellement</string>
+
+    <string name="body_func_breast">Sein</string>
+    <string name="body_func_waist">Taille</string>
+    <string name="body_func_hips">Hanches</string>
+
+    <string name="dialog_loading">Chargement</string>
+    <string name="dialog_apply_message">Appliquer les modifications ?\nCette action ne peut pas être annulée !</string>
+    <string name="dialog_cancel_message">Les modifications ne seront pas enregistrées</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">Partager</string>
+    <string name="save_func_instagram">Instagram</string>
+    <string name="save_func_facebook">Facebook</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">Twitter</string>
+    <string name="save_func_remove_watermark">Supprimer filigrane</string>
+    <string name="save_label_saved">Enregistrée</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

@@ -1,0 +1,8 @@
+include ':app'
+rootProject.name = "Android Photo Editor"
+
+include ':photoeditor'
+
+include ':androidGpuImagePlusMapper'
+include ':curveslibrary'
+include ':colorseekbar'

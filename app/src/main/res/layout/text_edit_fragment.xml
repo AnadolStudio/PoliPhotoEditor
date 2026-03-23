@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_panel"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/keyboard_button"
+            style="@style/EditItem.LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_keyboard" />
+
+            <TextView
+                style="@style/EditItem.TextView.TextEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_func_keyboard" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/font_button"
+            style="@style/EditItem.LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_text" />
+
+            <TextView
+                style="@style/EditItem.TextView.TextEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_func_font" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/palette_button"
+            style="@style/EditItem.LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_palette" />
+
+            <TextView
+                style="@style/EditItem.TextView.TextEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_func_palette" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/back_button"
+            style="@style/EditItem.LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                style="@style/EditItem.TextView.TextEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_func_back" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/text_color_panel"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        tools:visibility="visible">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/text_alpha_slider"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:thumbColor="@color/colorBlack"
+            app:thumbRadius="7dp"
+            app:labelBehavior="gone"
+            android:valueFrom="0"
+            android:value="255"
+            android:valueTo="255"
+            tools:theme="@style/SliderTheme"
+            app:trackColorActive="@color/colorBlack"
+            app:trackColorInactive="@color/colorBlack" />
+
+        <com.divyanshu.colorseekbar.ColorSeekBar
+            android:id="@+id/text_color_seek_bar"
+            android:layout_marginHorizontal="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            app:thumbBorderColor="@color/colorWhite"
+            app:thumbBorder="4dp"
+            app:barHeight="14dp"
+            app:cornerRadius="13dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/back_color_panel"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        tools:visibility="visible">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/back_alpha_slider"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:thumbColor="@color/colorBlack"
+            app:thumbRadius="7dp"
+            app:labelBehavior="gone"
+            android:valueFrom="0"
+            android:value="0"
+            android:valueTo="255"
+            tools:theme="@style/SliderTheme"
+            app:trackColorActive="@color/colorBlack"
+            app:trackColorInactive="@color/colorBlack" />
+
+        <com.divyanshu.colorseekbar.ColorSeekBar
+            android:id="@+id/back_color_seek_bar"
+            android:layout_marginHorizontal="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            app:thumbBorderColor="@color/colorWhite"
+            app:thumbBorder="4dp"
+            app:barHeight="14dp"
+            app:cornerRadius="13dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fontsRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</LinearLayout>

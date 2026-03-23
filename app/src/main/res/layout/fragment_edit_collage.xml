@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/edit_function_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_card_view_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <art.intel.soft.view.BaseCropButtonView
+            android:id="@+id/reflect_vertical_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:src="@drawable/ic_reflect_vertical"
+            app:text="@string/crop_func_reflect" />
+
+        <art.intel.soft.view.BaseCropButtonView
+            android:id="@+id/reflect_horizontal_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:src="@drawable/ic_reflect_horizontal"
+            app:text="@string/crop_func_reflect" />
+
+        <art.intel.soft.view.BaseCropButtonView
+            android:id="@+id/rotate_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:src="@drawable/ic_turn_right"
+            app:text="@string/crop_func_rotate_right" />
+
+        <art.intel.soft.view.BaseCropButtonView
+            android:id="@+id/rotate_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:src="@drawable/ic_turn_left"
+            app:text="@string/crop_func_rotate_left" />
+
+        <art.intel.soft.view.BaseCropButtonView
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:src="@drawable/ic_delete"
+            app:text="@string/collage_func_delete" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bottom_card_view_height"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_image_list" />
+
+</LinearLayout>

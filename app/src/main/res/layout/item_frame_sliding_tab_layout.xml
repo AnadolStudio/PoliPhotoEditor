@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.angcyo.tablayout.DslTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:tab_draw_badge="true"
+    android:paddingBottom="6dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginHorizontal="2dp"
+    app:tab_indicator_height="4dp"
+    app:tab_indicator_drawable="@drawable/indicator_line">
+
+</com.angcyo.tablayout.DslTabLayout>

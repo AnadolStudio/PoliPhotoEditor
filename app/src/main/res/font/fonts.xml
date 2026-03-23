@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        android:font="@font/roboto_regular"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/roboto_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/roboto_bold"
+        android:fontStyle="normal"
+        app:font="@font/roboto_bold"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/frank_ruhl_libre_bold"
+        android:fontStyle="normal"
+        app:font="@font/frank_ruhl_libre_bold"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/frank_ruhl_libre_light"
+        android:fontStyle="normal"
+        app:font="@font/frank_ruhl_libre_light"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/frank_ruhl_libre_regular"
+        android:fontStyle="normal"
+        app:font="@font/frank_ruhl_libre_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/fira_sans_bold"
+        android:fontStyle="normal"
+        app:font="@font/fira_sans_bold"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/fira_sans_italic"
+        android:fontStyle="normal"
+        app:font="@font/fira_sans_italic"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/fira_sans_regular"
+        android:fontStyle="normal"
+        app:font="@font/fira_sans_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/exo2_bold"
+        android:fontStyle="normal"
+        app:font="@font/exo2_bold"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/exo2_italic"
+        android:fontStyle="normal"
+        app:font="@font/exo2_italic"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/exo2_regular"
+        android:fontStyle="normal"
+        app:font="@font/exo2_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+</font-family>

@@ -1,0 +1,96 @@
+<resources>
+    <!--    MainActivity-->
+    <string name="main_func_photo">사진</string>
+    <string name="main_func_collage">콜라주</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">사진첩에서 선택</string>
+    <string name="gallery_snack_bar_settings">조절</string>
+    <string name="gallery_title_one_choice">사진 선택</string>
+    <string name="gallery_title_many_choices">사진 선택</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d 선택됨</string>
+    <string name="gallery_error_nothing_found">여기에는 아무것도 없습니다</string>
+    <string name="gallery_error_miss_permission">액세스 권한 부여에 실패했습니다.</string>
+    <!--    EditActivity-->
+
+    <string name="common_cancel_dialog_positive_button_title">변경 취소</string>
+    <string name="common_cancel_dialog_negative_button_title">계속 변화</string>
+    <string name="common_apply_dialog_positive_button_title">변경 승인</string>
+    <string name="common_apply_dialog_negative_button_title">계속 변화</string>
+
+    <string name="edit_func_collages">콜라주</string>
+    <string name="edit_func_frames">프레임</string>
+    <string name="edit_func_filters">필터</string>
+    <string name="edit_func_text">텍스트</string>
+    <string name="edit_func_stickers">스티커에 저장합니다.</string>
+    <string name="edit_func_improve">업데이트</string>
+    <string name="edit_func_brush">새 브러쉬</string>
+    <string name="edit_func_crop">수확고</string>
+    <string name="edit_func_blur">흐림</string>
+    <string name="edit_func_background">자르다</string>
+    <string name="edit_func_effects">효과</string>
+    <string name="edit_func_form">모양</string>
+    <string name="edit_func_body">몸</string>
+
+    <string name="edit_error_cant_open_file">파일을 열 수 없습니다</string>
+    <string name="edit_error_nothing_selected">아무것도 선택되지 않았습니다</string>
+
+    <string name="edit_action_apply">적용하다</string>
+    <string name="edit_action_save">저장하고 작품을 공유 할 수있는 저장 버튼을 누릅니다.</string>
+
+    <string name="error_collage_is_not_ready">콜라주가 준비되지 않았습니다.</string>
+    <string name="collage_func_delete">삭제</string>
+
+    <string name="crop_func_sizes">크기</string>
+    <string name="crop_func_reflect">반영하다</string>
+    <string name="crop_func_rotate_left">왼쪽으로 돌아</string>
+    <string name="crop_func_rotate_right">우회전</string>
+
+    <string name="crop_func_original">기발한</string>
+    <string name="crop_func_ratio_free">자유</string>
+    <string name="crop_error_saving_image">저장하지 못했습니다!</string>
+
+    <string name="text_func_keyboard">건반</string>
+    <string name="text_func_font">폰트</string>
+    <string name="text_func_palette">팔레트</string>
+    <string name="text_func_back">뒤쪽에</string>
+    <string name="text_empty_text_container_toast">텍스트를 선택</string>
+
+    <string name="improve_func_brightness">가벼움</string>
+    <string name="improve_func_contrast">대조</string>
+    <string name="improve_func_saturation">채도</string>
+    <string name="improve_func_vignette">비 네트</string>
+    <string name="improve_func_warmth">온도</string>
+    <string name="improve_func_curves">곡선</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">지우다</string>
+    <string name="cut_func_colour">색깔</string>
+    <string name="cut_func_own_background">배경</string>
+    <string name="cut_error_object_isnt_exist">얼굴을 감지하지 못했습니다.</string>
+    <string name="cut_error_isnt_exist">배경 선택</string>
+    <string name="cut_bottom_dialog_select">사람을 찾을 수 없음: 수동으로 선택</string>
+    <string name="cut_bottom_dialog_back">사람을 찾을 수 없음: 돌아가기</string>
+    <string name="cut_bottom_dialog_refresh_apply">변경 사항 취소</string>
+    <string name="cut_bottom_dialog_refresh_cancel">계속 변화</string>
+
+    <string name="body_func_breast">가슴</string>
+    <string name="body_func_waist">허리</string>
+    <string name="body_func_hips">힙</string>
+
+    <string name="dialog_loading">로딩…</string>
+    <string name="dialog_apply_message">변경 사항을 적용하시겠습니까?\n이 작업은 취소할 수 없습니다!</string>
+    <string name="dialog_cancel_message">변경 사항이 저장되지 않습니다</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">공유 대상:</string>
+    <string name="save_func_instagram">인스 타 그램</string>
+    <string name="save_func_facebook">페이스북</string>
+    <string name="save_func_whatsapp">왓츠앱</string>
+    <string name="save_func_twitter">트위터</string>
+    <string name="save_func_remove_watermark">광고 없음 &amp; 워터마크 없음</string>
+    <string name="save_label_saved">저장장소:</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

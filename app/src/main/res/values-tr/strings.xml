@@ -1,0 +1,95 @@
+<resources>
+    <!--    MainActivity-->
+    <string name="main_func_photo">Fotoğraf</string>
+    <string name="main_func_collage">Kolaj</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">Galeri</string>
+    <string name="gallery_snack_bar_settings">Ayarlar</string>
+    <string name="gallery_title_one_choice">Fotoğraf seç</string>
+    <string name="gallery_title_many_choices">fotoğrafları seç</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d seçildi</string>
+    <string name="gallery_error_nothing_found">burada hiçbir şey yok</string>
+    <string name="gallery_error_miss_permission">Lütfen izin verin</string>
+
+    <!--    EditActivity-->
+    <string name="common_cancel_dialog_positive_button_title">değişiklikleri iptal et</string>
+    <string name="common_cancel_dialog_negative_button_title">değişimi bırakma</string>
+    <string name="common_apply_dialog_positive_button_title">değişiklikleri uygula</string>
+    <string name="common_apply_dialog_negative_button_title">değişimi bırakma</string>
+
+    <string name="edit_func_collages">Kolajlar</string>
+    <string name="edit_func_frames">çerçeveler</string>
+    <string name="edit_func_filters">Filtreler</string>
+    <string name="edit_func_text">Metin</string>
+    <string name="edit_func_stickers">çıkartmalar</string>
+    <string name="edit_func_improve">Güncelleme</string>
+    <string name="edit_func_brush">fırçalamak</string>
+    <string name="edit_func_crop">Mahsul</string>
+    <string name="edit_func_blur">Bulanıklık</string>
+    <string name="edit_func_background">Kesmek</string>
+    <string name="edit_func_effects">Ad</string>
+    <string name="edit_func_form">Sıçrama</string>
+    <string name="edit_func_body">Gövde</string>
+
+    <string name="edit_error_cant_open_file">dosya açılamıyor</string>
+    <string name="edit_error_nothing_selected">Hiçbir şey seçilmedi</string>
+
+    <string name="edit_action_apply">Uygulamak</string>
+    <string name="edit_action_save">Kaydetmek</string>
+
+    <string name="error_collage_is_not_ready">Kolaj hazır değil</string>
+
+    <string name="collage_func_delete">Silmek</string>
+    <string name="crop_func_sizes">Boyutlar</string>
+    <string name="crop_func_reflect">Yansıtmak</string>
+    <string name="crop_func_rotate_left">Sola çevirin</string>
+    <string name="crop_func_rotate_right">Sağa dönün</string>
+    <string name="crop_func_original" translatable="false">Original</string>
+    <string name="crop_func_ratio_free" translatable="false">Keyfi</string>
+    <string name="crop_error_saving_image">Kırpma sırasında bir hata oluştu</string>
+
+    <string name="text_func_keyboard">Tuş takımı</string>
+    <string name="text_func_font">Yazı tipi</string>
+    <string name="text_func_palette">Palet</string>
+    <string name="text_func_back">Geri</string>
+    <string name="text_empty_text_container_toast">metni seç</string>
+
+    <string name="improve_func_brightness">Parlaklık</string>
+    <string name="improve_func_contrast">Zıtlık</string>
+    <string name="improve_func_saturation">Doyma</string>
+    <string name="improve_func_vignette">Skeç</string>
+    <string name="improve_func_warmth">Sıcaklık</string>
+    <string name="improve_func_curves">Eğriler</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">Sıfırla</string>
+    <string name="cut_func_colour">Renk</string>
+    <string name="cut_func_own_background">Sahip olmak</string>
+    <string name="cut_error_object_isnt_exist">Kişi tanınamadı</string>
+    <string name="cut_error_isnt_exist">Bir arka plan seçin</string>
+    <string name="cut_bottom_dialog_select">Kişi bulunamadı: manuel olarak seçin</string>
+    <string name="cut_bottom_dialog_back">Kişi bulunamadı: geri dön</string>
+    <string name="cut_bottom_dialog_refresh_apply">değişikliklerini iptal et</string>
+    <string name="cut_bottom_dialog_refresh_cancel">değişimi bırakma</string>
+
+    <string name="body_func_breast">Göğüs</string>
+    <string name="body_func_waist">Bel</string>
+    <string name="body_func_hips">Kalçalar</string>
+
+    <string name="dialog_loading">Yükleniyor</string>
+    <string name="dialog_apply_message">Değişiklikler uygulansın mı?\nBu işlem geri alınamaz!</string>
+    <string name="dialog_cancel_message">Değişiklikler kaydedilmeyecek</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">Paylaş</string>
+    <string name="save_func_instagram">Instagram</string>
+    <string name="save_func_facebook">Facebook</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">twitter</string>
+    <string name="save_func_remove_watermark">Filigranı kaldır</string>
+    <string name="save_label_saved">kaydedildi</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

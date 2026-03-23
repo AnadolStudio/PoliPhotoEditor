@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="72dp"
+    android:layout_height="56dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:minWidth="55dp">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/EditItem.TextView"
+            android:paddingVertical="2dp"
+            android:layout_width="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            tools:text="@string/edit_func_frames" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/notificationDot"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_margin="@dimen/margin_small"
+        app:cardBackgroundColor="@color/colorAccentDark"
+        android:visibility="gone"
+        app:cardCornerRadius="250dp"
+        app:layout_constraintEnd_toEndOf="@+id/container"
+        app:layout_constraintTop_toTopOf="@+id/container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ja.burhanrashid52.photoeditor.view.CustomScalableContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <ja.burhanrashid52.photoeditor.view.ScalableImageView
+        android:id="@+id/imgPhotoEditorImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_height="500dp"
+        tools:layout_width="300dp"
+        tools:src="@android:color/holo_blue_dark" />
+
+    <ja.burhanrashid52.photoeditor.view.BorderView
+        android:id="@+id/frmBorder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPhotoEditorImage"
+        app:layout_constraintEnd_toEndOf="@+id/imgPhotoEditorImage"
+        app:layout_constraintStart_toStartOf="@+id/imgPhotoEditorImage"
+        app:layout_constraintTop_toTopOf="@+id/imgPhotoEditorImage" />
+
+</ja.burhanrashid52.photoeditor.view.CustomScalableContainer>

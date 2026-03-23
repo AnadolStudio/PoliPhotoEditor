@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<art.intel.soft.view.SelectableImageViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:gravity="center"
+    android:paddingHorizontal="8dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/red"
+        style="@style/ColorRadioButton"
+        app:isImageSelected="true"
+        app:src="@drawable/ic_selective_color_red" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/green"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_green" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/blue"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_blue"/>
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/cyan"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_cyan" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/magenta"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_magenta" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/yellow"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_yellow"/>
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/white"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_white" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/gray"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_gray" />
+
+    <art.intel.soft.view.SelectableImageView
+        android:id="@+id/black"
+        style="@style/ColorRadioButton"
+        app:src="@drawable/ic_selective_color_black" />
+
+</art.intel.soft.view.SelectableImageViewGroup>

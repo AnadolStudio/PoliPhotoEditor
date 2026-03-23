@@ -1,0 +1,95 @@
+<resources>
+    <!--    MainActivity-->
+    <string name="main_func_photo">Фото</string>
+    <string name="main_func_collage">Коллаж</string>
+    <!--    GalleryActivity-->
+    <string name="gallery_spinner_title">Галерея</string>
+    <string name="gallery_snack_bar_settings">Настройки</string>
+    <string name="gallery_title_one_choice">Выбрать фото</string>
+    <string name="gallery_title_many_choices">Выбрать фото</string>
+    <string name="gallery_title_count_of_selected_items">%1$d/%2$d выбрано</string>
+    <string name="gallery_error_nothing_found">Ничего не найдено</string>
+    <string name="gallery_error_miss_permission">Пожалуйста, предоставьте разрешение</string>
+
+    <!--    EditActivity-->
+    <string name="common_cancel_dialog_positive_button_title">Отменить изменения</string>
+    <string name="common_cancel_dialog_negative_button_title">Продолжить редактирование</string>
+    <string name="common_apply_dialog_positive_button_title">Применить изменения</string>
+    <string name="common_apply_dialog_negative_button_title">Продолжить редактирование</string>
+
+    <string name="edit_func_collages">Коллажи</string>
+    <string name="edit_func_frames">Рамки</string>
+    <string name="edit_func_filters">Фильтры</string>
+    <string name="edit_func_text">Текст</string>
+    <string name="edit_func_stickers">Стикеры</string>
+    <string name="edit_func_improve">Улучшить</string>
+    <string name="edit_func_brush">Кисть</string>
+    <string name="edit_func_crop">Обрезать</string>
+    <string name="edit_func_blur">Размытие</string>
+    <string name="edit_func_background">Фон</string>
+    <string name="edit_func_effects">Эффекты</string>
+    <string name="edit_func_form">Сплэш</string>
+    <string name="edit_func_body">Тело</string>
+
+    <string name="edit_error_cant_open_file">Невозможно открыть файл</string>
+    <string name="edit_error_nothing_selected">Ничего не выбрано</string>
+
+    <string name="edit_action_apply">Применить</string>
+    <string name="edit_action_save">Сохранить</string>
+
+    <string name="error_collage_is_not_ready">Коллаж не готов</string>
+    <string name="collage_func_delete">удалить</string>
+
+    <string name="crop_func_sizes">шаблоны</string>
+    <string name="crop_func_reflect">отразить</string>
+    <string name="crop_func_rotate_left">Влево</string>
+    <string name="crop_func_rotate_right">Вправо</string>
+    <string name="crop_func_original">Original</string>
+    <string name="crop_func_ratio_free">Свой</string>
+    <string name="crop_error_saving_image">Произошла ошибка при кадрировании</string>
+
+    <string name="text_func_keyboard">клавиатура</string>
+    <string name="text_func_font">шрифт</string>
+    <string name="text_func_palette">цвет</string>
+    <string name="text_func_back">фон</string>
+    <string name="text_empty_text_container_toast">Сначала выберите текст для изменения</string>
+
+    <string name="improve_func_brightness">Яркость</string>
+    <string name="improve_func_contrast">Контраст</string>
+    <string name="improve_func_saturation">Насыщенность</string>
+    <string name="improve_func_vignette">Виньетка</string>
+    <string name="improve_func_warmth">Теплота</string>
+    <string name="improve_func_curves">Кривые</string>
+    <string name="improve_func_selcolor" translatable="false">SelColor</string>
+
+    <string name="cut_func_delete">Вернуть</string>
+    <string name="cut_func_colour">Цвет</string>
+    <string name="cut_func_own_background">Свой</string>
+    <string name="cut_error_object_isnt_exist">Не удалось распознать человека</string>
+    <string name="cut_error_isnt_exist">Выберите фон</string>
+    <string name="cut_bottom_dialog_select">Не найден человек: выделить вручную</string>
+    <string name="cut_bottom_dialog_back">Не найден человек: вернуться назад</string>
+    <string name="cut_bottom_dialog_refresh_apply">Отменить ваши изменения</string>
+    <string name="cut_bottom_dialog_refresh_cancel">Продолжить редактирование</string>
+
+    <string name="body_func_breast">Грудь</string>
+    <string name="body_func_waist">Талия</string>
+    <string name="body_func_hips">Бедра</string>
+
+    <string name="dialog_loading">Загрузка</string>
+    <string name="dialog_apply_message">Применить изменения?\nЭто действие нельзя отменить!</string>
+    <string name="dialog_cancel_message">Изменения не сохранятся</string>
+    <!--    SaveActivity-->
+    <string name="save_func_share">Поделиться</string>
+    <string name="save_func_instagram">Instagram</string>
+    <string name="save_func_facebook">Facebook</string>
+    <string name="save_func_whatsapp">WhatsApp</string>
+    <string name="save_func_twitter">Twitter</string>
+    <string name="save_func_remove_watermark">Удалить водяной знак</string>
+    <string name="save_label_saved">Сохранено</string>
+    <string name="save_ad_attribution" translatable="false">Ad</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">12345</string>
+
+</resources>

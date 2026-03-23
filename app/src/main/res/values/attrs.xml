@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SplashView">
+        <attr name="backgroundEffect" format="enum">
+            <enum name="blur" value="0" />
+            <enum name="monochrome" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="src" format="reference|color" />
+    <attr name="text" format="reference|string" />
+
+    <declare-styleable name="SelectableImageView">
+        <attr name="src"/>
+        <attr name="selectedColor" format="reference|color" />
+        <attr name="isImageSelected" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseCropButtonView">
+        <attr name="src" />
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonBottomDialogButton">
+        <attr name="text" />
+    </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="startColor" format="reference|color"/>
+        <attr name="endColor" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="BaseToolbar">
+        <attr name="text" />
+        <attr name="rightIcon" format="reference"/>
+    </declare-styleable>
+
+</resources>

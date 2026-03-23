@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hsl_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_normal"
+    android:layout_marginEnd="@dimen/margin_normal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/cyan_slider_container"
+        android:layout_width="match_parent"
+        android:layout_height="28.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/slider_background"
+            android:backgroundTint="@color/cyan" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/cyan_slider"
+            tools:theme="@style/SliderTheme"
+            style="@style/SelectiveColorViewSliderStyle" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/magenta_slider_container"
+        android:layout_width="match_parent"
+        android:layout_height="28.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/slider_background"
+            android:layout_marginHorizontal="8dp"
+            android:backgroundTint="@color/magenta" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/magenta_slider"
+            tools:theme="@style/SliderTheme"
+            style="@style/SelectiveColorViewSliderStyle" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/yellow_slider_container"
+        android:layout_width="match_parent"
+        android:layout_height="28.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/slider_background"
+            android:backgroundTint="@color/yellow" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/yellow_slider"
+            tools:theme="@style/SliderTheme"
+            style="@style/SelectiveColorViewSliderStyle" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/black_slider_container"
+        android:layout_width="match_parent"
+        android:layout_height="28.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp">
+
+        <View
+            android:id="@+id/brightness_slider_back"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/slider_background"
+            android:backgroundTint="@android:color/darker_gray" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/black_slider"
+            tools:theme="@style/SliderTheme"
+            style="@style/SelectiveColorViewSliderStyle" />
+
+    </FrameLayout>
+
+</LinearLayout>
