@@ -8,6 +8,7 @@ import android.widget.*
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.tabs.TabLayout
 import art.intel.soft.data.repository.AuthRepository
+import art.intel.soft.session.UserSession
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
@@ -15,6 +16,7 @@ import io.reactivex.schedulers.Schedulers
 class AuthBottomSheet : BottomSheetDialogFragment() {
 
     var onAuthSuccess: (() -> Unit)? = null
+    var onLogout: (() -> Unit)? = null
     private val disposables = CompositeDisposable()
 
     // Build layout programmatically (no XML needed)
@@ -24,6 +26,27 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
         val root = LinearLayout(ctx).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(48, 32, 48, 48)
+        }
+
+        if (UserSession.isAuthenticated) {
+            val signedInTitle = TextView(ctx).apply {
+                text = "Вы вошли в аккаунт"
+                textSize = 18f
+                setPadding(0, 0, 0, 24)
+            }
+            root.addView(signedInTitle)
+
+            val logoutButton = Button(ctx).apply {
+                text = "Выйти из аккаунта"
+            }
+            logoutButton.setOnClickListener {
+                UserSession.logout()
+                onLogout?.invoke()
+                dismiss()
+            }
+            root.addView(logoutButton)
+
+            return root
         }
 
         val title = TextView(ctx).apply {

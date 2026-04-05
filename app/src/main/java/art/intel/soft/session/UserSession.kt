@@ -36,6 +36,10 @@ object UserSession {
         val storage = tokenStorage ?: return onFailure()
         if (!storage.hasTokens()) return onFailure()
 
+        // Optimistic: if tokens exist, treat user as signed in immediately.
+        // Refresh happens in background; flag reverts only if server rejects the token.
+        isAuthenticated = true
+
         ApiClient.service.refresh(RefreshRequest(storage.refreshToken!!))
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())

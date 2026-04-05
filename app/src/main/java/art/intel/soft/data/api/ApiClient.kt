@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object ApiClient {
     // Use 10.0.2.2 for Android emulator → localhost on host machine
     // For real device replace with your machine's local IP
-    private const val BASE_URL = "http://10.0.2.2:8000/"
+    private const val BASE_URL = "http://127.0.0.1:8000/" // 192.168.43.4 10.0.2.2
 
     private var tokenStorage: TokenStorage? = null
 
