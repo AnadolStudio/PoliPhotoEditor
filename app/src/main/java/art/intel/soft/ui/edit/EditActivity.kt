@@ -30,6 +30,7 @@ import art.intel.soft.base.firebase.AnalyticEventsUtil
 import art.intel.soft.base.firebase.events.implementation.ClickEvent
 import art.intel.soft.databinding.ActivityEditBinding
 import art.intel.soft.extention.baseSubscribe
+import art.intel.soft.extention.requireFeature
 import art.intel.soft.extention.singleFrom
 import art.intel.soft.ui.Processor
 import art.intel.soft.ui.ProcessorListener
@@ -342,8 +343,12 @@ class EditActivity : AdActivityWithBanner(), ImageLoader.SimpleRequestListener<B
                 COLLAGE -> setEditFragment(MODE_COLLAGE, CollageEditFragment.newInstance(callback, collagePhotoList))
                 FRAME -> setEditFragment(MODE_FRAME, FrameEditFragment.newInstance(callback))
                 BACKGROUND -> setEditFragment(MODE_BACKGROUND, BackgroundCutEditFragment.newInstance())
-                FILTER -> setEditFragment(MODE_FILTER, FilterEditFragment.newInstance(callback))
-                EFFECT -> setEditFragment(MODE_EFFECT, EffectEditFragment.newInstance(callback))
+                FILTER -> requireFeature("filters_all") {
+                    setEditFragment(MODE_FILTER, FilterEditFragment.newInstance(callback))
+                }
+                EFFECT -> requireFeature("effects") {
+                    setEditFragment(MODE_EFFECT, EffectEditFragment.newInstance(callback))
+                }
                 FORM -> setEditFragment(MODE_FORM, FormEditFragment.newInstance(callback))
                 BODY -> setEditFragment(MODE_BODY, BodyEditFragment.newInstance(callback))
                 TEXT -> setEditFragment(MODE_TEXT, TextEditFragment.newInstance())

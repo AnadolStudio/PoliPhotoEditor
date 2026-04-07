@@ -4,6 +4,15 @@
     <!--    MainActivity-->
     <string name="main_func_photo">Photo</string>
     <string name="main_func_collage">Collage</string>
+    <string name="main_account_btn">Account</string>
+    <string name="main_account_btn_label" translatable="false">LOGIN OR REGISTRATION</string>
+    <string name="account_title_guest">Account</string>
+    <string name="account_action_login">Sign in / Register</string>
+    <string name="account_action_logout">Log out</string>
+    <string name="account_status_signed_in">Signed in</string>
+    <string name="account_logout_confirm">Log out of your account?</string>
+    <string name="account_logout_success">Logged out</string>
+    <string name="common_cancel">Cancel</string>
     <!--    GalleryActivity-->
     <string name="gallery_spinner_title">Gallery</string>
     <string name="gallery_title_one_choice">Choose photo</string>
