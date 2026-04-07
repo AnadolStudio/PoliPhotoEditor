@@ -48,6 +48,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:contentDescription="@string/main_account_btn"
                     android:src="@drawable/ic_main_screen_account_btn" />
 
@@ -56,9 +57,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/main_account_btn_label"
+                    android:text="@string/main_account_btn_label_in"
                     android:textColor="@android:color/white"
                     android:textSize="11sp"
+                    android:textAllCaps="true"
                     android:textStyle="bold"
                     android:letterSpacing="0.05" />
 

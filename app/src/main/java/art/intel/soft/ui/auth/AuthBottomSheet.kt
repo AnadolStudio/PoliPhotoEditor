@@ -9,6 +9,9 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.tabs.TabLayout
 import art.intel.soft.data.repository.AuthRepository
 import art.intel.soft.session.UserSession
+import com.anadolstudio.library.curvestool.util.dpToPx
+import com.anadolstudio.library.curvestool.util.setMargins
+import com.angcyo.dsladapter.dp
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
@@ -61,6 +64,7 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
             addTab(newTab().setText("Войти"))
         }
         root.addView(tabs)
+        root.addView(createSpace())
 
         val emailInput = EditText(ctx).apply {
             hint = "Email"
@@ -68,6 +72,7 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
             setPadding(0, 16, 0, 8)
         }
         root.addView(emailInput)
+        root.addView(createSpace())
 
         val passwordInput = EditText(ctx).apply {
             hint = "Пароль (минимум 8 символов)"
@@ -75,6 +80,7 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
             setPadding(0, 8, 0, 24)
         }
         root.addView(passwordInput)
+        root.addView(createSpace())
 
         val errorText = TextView(ctx).apply {
             setTextColor(0xFFE53935.toInt())
@@ -156,6 +162,10 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         disposables.clear()
+    }
+
+    private fun createSpace(): View = View(requireContext()).apply {
+        layoutParams = ViewGroup.LayoutParams(0, 16.dpToPx())
     }
 
     companion object {
