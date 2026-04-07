@@ -69,7 +69,7 @@ class AuthBottomSheet : BottomSheetDialogFragment() {
         val emailInput = EditText(ctx).apply {
             hint = "Email"
             inputType = android.text.InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS or android.text.InputType.TYPE_CLASS_TEXT
-            setPadding(0, 16, 0, 8)
+            setPadding(0, 8, 0, 24)
         }
         root.addView(emailInput)
         root.addView(createSpace())
