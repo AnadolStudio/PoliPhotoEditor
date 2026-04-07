@@ -53,6 +53,7 @@
                     android:src="@drawable/ic_main_screen_account_btn" />
 
                 <TextView
+                    android:id="@+id/login_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom|center_horizontal"

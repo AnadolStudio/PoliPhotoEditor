@@ -9,6 +9,7 @@ import art.intel.soft.base.firebase.AnalyticEventsUtil
 import art.intel.soft.base.firebase.events.implementation.OpenItemEvent
 import art.intel.soft.databinding.ActivityMainBinding
 import art.intel.soft.extention.debugLongClick
+import art.intel.soft.session.UserSession
 import art.intel.soft.ui.auth.AuthBottomSheet
 import art.intel.soft.ui.gallery.GalleryListActivity
 import art.intel.soft.utils.AnimateUtil.scaleAnimationOnClick
@@ -30,6 +31,12 @@ class MainActivity : AdActivityWithBanner() {
     }
 
     private fun initView() {
+        val titleRes = if (UserSession.isAuthenticated) {
+            R.string.main_account_btn_label_out
+        } else {
+            R.string.main_account_btn_label_in
+        }
+        binding.loginText.setText(titleRes)
         binding.backgroundBtn.scaleAnimationOnClick { openGalleryWithFlag(OpenEditType.BACKGROUND) }
         binding.bodyBtn.scaleAnimationOnClick { openGalleryWithFlag(OpenEditType.BODY) }
         binding.framesBtn.scaleAnimationOnClick { openGalleryWithFlag(OpenEditType.FRAMES) }
